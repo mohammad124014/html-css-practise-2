@@ -25,7 +25,7 @@ header {
 #navbar {
     width: 100%;
     display: flex;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     justify-content: space-between;
     align-items: center;
     color: #ffffff80;
@@ -74,7 +74,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     padding-top: 125px;
 }
 
@@ -111,4 +111,48 @@ header {
 #main_header a:hover {
     background-color: #97fff8;
     color: rgb(68, 68, 68);
+}
+
+
+/* start main */
+
+
+/* part1 main */
+
+#first_main {
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(0deg, #2e2e2e, #222222, #0f0f0f, #000000, #000000, #000000);
+}
+
+#set_ipad_image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(../Images/img/ipad.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#set_ipad_image h3 {
+    margin: 100px 0 30px 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#set_ipad_image p {
+    width: 50%;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+#set_ipad_image p a {
+    color: #64a19d;
 }
