@@ -156,3 +156,47 @@ header {
 #set_ipad_image p a {
     color: #64a19d;
 }
+
+
+/* part2 main */
+
+#second_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+}
+
+#part1_second_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+
+#part1_second_main img {
+    width: 700px;
+}
+
+#part1_second_main hr {
+    background-color: #64a19d;
+    width: 50px;
+    height: 170px;
+}
+
+#part1_second_main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    color: #838383;
+}
+
+#part1_second_main div h2 {
+    color: #000000;
+    margin-bottom: 5px;
+}
